@@ -1,1 +1,19 @@
 @import url(./reset.css);
+@import url(./font.css);
+.section__button{
+    border-radius: 45px;
+    padding: 17px 32px;
+    background: #1064e5;
+    height: 40px;
+}
+.section__title{
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    color: rgba(6, 18, 36, 0.9);
+}
+.section__desc{
+    font-weight: 400;
+    font-style: 18px;
+    color: rgba(6, 18, 36, 0.9);
+}
