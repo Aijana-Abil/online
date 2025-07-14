@@ -124,7 +124,33 @@ ul li::before {
   height: 40px;
 }
 
-.Task-4friends .section__title {
+.Task-3pakety .section__title {
   margin: 57px 0 63px;
   text-align: center;
+}
+.meets__wrapper{
+  padding: 49px 0 63px 0;
+  text-align: center;
+  background: #fff;
+}
+.meets__title{
+  text-align: center;
+}
+.meets__video{
+  display: inline-block;
+  background: url("../images/meets__img.jpg") no-repeat center/cover;
+  max-width: 734px;
+  height: 451px;
+  border-radius: 4px;
+  opacity: 0.4;
+  position: relative;
+  
+}
+.meets__img{
+  height: 102px;
+  width: 102px;
+  position: absolute;
+  z-index: 9999;
+  right: 302px;
+  bottom: 185px;
 }
