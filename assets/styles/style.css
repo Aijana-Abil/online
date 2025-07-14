@@ -1,25 +1,26 @@
 @import url(./reset.css);
 @import url(./font.css);
-.section__button{
-    border-radius: 45px;
-    padding: 17px 32px;
-    background: #1064e5;
-    height: 40px;
+.section__button {
+  border-radius: 45px;
+  padding: 17px 32px;
+  background: #1064e5;
+  height: 40px;
 }
-.section__title{
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 120%;
-    color: rgba(6, 18, 36, 0.9);
+.section__title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 120%;
+  color: rgba(6, 18, 36, 0.9);
 }
-.section__desc{
-    font-weight: 400;
-    font-style: 18px;
-    color: rgba(6, 18, 36, 0.9);
+.section__desc {
+  font-weight: 400;
+  font-style: 18px;
+  color: rgba(6, 18, 36, 0.9);
 }
 body {
   margin: 0;
-  font-family: 'IBM Plex Sans', 'IBM Plex Serif', 'Stolzl', Arial, Helvetica, sans-serif;
+  font-family: "IBM Plex Sans", "IBM Plex Serif", "Stolzl", Arial, Helvetica,
+    sans-serif;
   background-color: #e6f7f9;
   color: #1d1d1d;
 }
@@ -76,7 +77,7 @@ ul li::before {
   border-radius: 25px;
   font-weight: bold;
   text-decoration: none;
-  transition:  0.3s;
+  transition: 0.3s;
 }
 
 .btn:hover {
@@ -96,5 +97,34 @@ ul li::before {
   width: 100%;
   border: 1px solid #ccc;
   border-radius: 8px;
-  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.plan {
+  background-color: #deeefc;
+  border-radius: 4px;
+  padding: 32px;
+  width: 256px;
+  height: 320px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.plans__btn {
+  width: 192px;
+  height: 40px;
+}
+
+.Task-4friends .section__title {
+  margin: 57px 0 63px;
+  text-align: center;
 }
