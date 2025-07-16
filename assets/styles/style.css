@@ -23,11 +23,11 @@ body {
   background-color: #e6f7f9;
   color: #1d1d1d;
 }
-
+/*Salim*/
 .main-wrapper {
-  max-width: 1200px;
+  max-width: 1232px;
   margin: 0 auto;
-  padding: 40px 20px;
+  padding: 40px 104px;
   display: flex;
   flex-direction: column;
   gap: 60px;
@@ -38,7 +38,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
-  gap: 20px;
+  gap: 40px;
 }
 
 .left-column,
@@ -47,22 +47,22 @@ body {
   min-width: 300px;
 }
 
-h2 {
+.h2 {
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 20px;
 }
 
-ul {
+.netochki {
   list-style-type: none;
   padding-left: 0;
   line-height: 1.6;
 }
 
-ul li::before {
-  content: "• ";
-  color: #1a73e8;
-  font-weight: bold;
+.netochki li::before {
+  content: "-";
+  color: rgba(0, 0, 0, 0.9);
+  font-weight: 700;
   margin-right: 5px;
 }
 
@@ -74,7 +74,7 @@ ul li::before {
   color: #1a73e8;
   border: 2px solid #1a73e8;
   border-radius: 25px;
-  font-weight: bold;
+  font-weight: 700;
   text-decoration: none;
   transition: 0.3s;
 }
@@ -98,7 +98,8 @@ ul li::before {
   border-radius: 8px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
 }
-
+/*Salim*/
+/*Argen*/
 .plans {
   display: flex;
   justify-content: center;
@@ -126,7 +127,7 @@ ul li::before {
 .Task-3pakety .section__title {
   margin: 57px 0 63px;
   text-align: center;
-}
+}/*Argen*/
 /*meets*/
 /*meetstop*/
 .meets__topwrapper{
