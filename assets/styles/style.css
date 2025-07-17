@@ -554,7 +554,7 @@ width: calc(100% - 40px);
   padding: 60px 20px;
   text-align: center;
   border-top: 6px solid #dceeff;
-  border-bottom: 10px solid #0a1320; /* тёмная линия внизу */
+  border-bottom: 10px solid #0a1320; 
 }
 
 .subscribe-container h2 {
