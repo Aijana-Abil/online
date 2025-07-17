@@ -240,7 +240,8 @@ color: rgba(6, 18, 36, 0.9);
   gap: 54px;
   align-items: center;
   justify-content: center;
-
+  flex-wrap: wrap;
+  padding: 20px;
 }
 .bottom__img{
   background: linear-gradient(320deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
@@ -261,8 +262,7 @@ color: rgba(6, 18, 36, 0.9);
 .meets__video {
   display: inline-block;
   background: url("../images/meets__img.jpg") no-repeat center/cover;
-  max-width: 734px;
-  height: 451px;
+  max-width: 100%;
   border-radius: 4px;
   opacity: 0.4;
   position: relative;
@@ -281,9 +281,6 @@ color: rgba(6, 18, 36, 0.9);
 .meets {
   background: #deeefc;
   padding-top: 46px;
-}
-.meets__bottomwrapper {
-  padding: 30px 456px;
 }
 .meets__title {
   font-family: var(--second-family);
