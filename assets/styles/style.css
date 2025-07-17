@@ -674,7 +674,7 @@ cursor: pointer;
 /*input5*/
 /*meetsbottom*/
 /*meets*/
-.Task-7subscribe-section {
+.Task-6subscribe-section {
   background-color: #ffffff;
   padding: 60px 20px;
   text-align: center;
@@ -728,8 +728,6 @@ cursor: pointer;
 .subscribe-form button:hover {
   background-color: #004fc0;
 }
-
- 
  .footer {
     background-color: #050F23;
     padding: 64px 40px 40px;
