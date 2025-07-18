@@ -1,18 +1,5 @@
 @import url(./reset.css);
 @import url(./font.css);
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Roboto", sans-serif;
-}
-
-body {
-  background: linear-gradient(to right, #eef5fc, #d7eafe);
-  color: #1e293b;
-}
-
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -23,6 +10,7 @@ body {
 }
 
 .header {
+  background: #deeefc;
   padding: 20px 0;
 }
 
@@ -86,6 +74,7 @@ body {
   font-weight: bold;
   cursor: pointer;
   transition: background-color 0.2s ease;
+  text-transform: uppercase;
 }
 
 .btn-primary:hover {
@@ -154,12 +143,9 @@ body {
 }
 
 .hero-section {
-  background-image: url("../images/manlaptop.png");
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: 1600px auto;
+  background: url("../images/manlaptop.png") #deeefc no-repeat right/contain ;
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 /* Стили для features */
@@ -205,7 +191,7 @@ body {
 
 .hero-section {
   padding: 60px 0;
-  background-color: #f9f9f9;
+  background-color:#deeefc;
 }
 
 .container {
@@ -232,7 +218,6 @@ body {
   color: rgba(6, 18, 36, 0.9);
 }
 body {
-  margin: 0;
   font-family: "IBM Plex Sans", "IBM Plex Serif", "Stolzl", Arial, Helvetica,
     sans-serif;
   color: #1d1d1d;
