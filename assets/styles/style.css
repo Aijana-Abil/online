@@ -453,7 +453,7 @@ body {
   text-align: center;
   background: #fff;
 }
-.meets__title {
+.meets__toptitle{
   text-align: center;
 }
 .meets__video {
@@ -480,67 +480,12 @@ body {
   padding-top: 46px;
 }
 .meets__title {
-  font-family: var(--second-family);
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 120%;
+  margin-bottom: 46px;
   text-align: center;
-  color: rgba(6, 18, 36, 0.9);
-}
-/*input*/
-.btn__text {
-  line-height: 122%;
-  width: 100%;
-  cursor: pointer;
-  display: block;
-  box-sizing: border-box;
-  margin: 0 0 5px;
-  transition: color 0.3s;
-}
-.btn__close {
-  display: inline-block;
-  position: relative;
-  width: 11px;
-  height: 12px;
-  cursor: pointer;
-}
-.btn__close::before {
-  content: "";
-  position: absolute;
-  display: inline-block;
-  height: 2px;
-  width: 11px;
-  transition: 0.3s;
-  background: #1064e5;
-  left: -37px;
-  top: 40px;
-  transform: rotate(90deg);
-}
-.btn__close::after {
-  content: "";
-  position: absolute;
-  display: inline-block;
-  height: 2px;
-  width: 11px;
-  background: #1064e5;
-  left: -37px;
-  top: 40px;
-}
-.input:checked + .btn__close::before {
-  opacity: 0;
 }
 .meets__bottomwrapper {
   padding: 30px 396px;
   background: #deeefc;
-}
-.meets__title {
-  font-family: var(--second-family);
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 120%;
-  text-align: center;
-  color: rgba(6, 18, 36, 0.9);
-  margin-bottom: 46px;
 }
 .quetions {
   padding-left: 110px;
@@ -548,7 +493,7 @@ body {
 /*input*/
 .btn__text {
   line-height: 122%;
-  max-width: 480px;
+  width: 100%;
   cursor: pointer;
   display: block;
   box-sizing: border-box;
