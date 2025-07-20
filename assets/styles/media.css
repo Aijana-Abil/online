@@ -5,6 +5,20 @@
 .meets__topwrapper{
     padding: 12px 50px 104px 50px;
 }
+.footer-inner {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .footer-col.col-4,
+  .footer-col.col-3,
+  .footer-col.col-5 {
+    margin-left: 0;
+  }
+
+  .footer-col.col-logo {
+    margin-right: 80px;
+  }
 }
 @media(max-width:1024px){
 .friends__top{
@@ -16,6 +30,24 @@
 .meets__bottomwrapper{
     padding: 16px 121px 44px;
 }
+.subscribe-form {
+    flex-wrap: wrap;
+  }
+
+  .footer-inner {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .footer-col {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .footer-col.col-logo {
+    margin-right: 0;
+  }
 }
 @media(max-width:769px){
     .meets__img{
@@ -36,6 +68,28 @@
     width: 668px;
 height: 423px;
 }
+.subscribe-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .subscribe-form input[type="email"],
+  .subscribe-form button {
+    width: 100%;
+  }
+
+  .footer-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer-col {
+    width: 100%;
+  }
+
+  .footer .copyright {
+    margin-top: 20px;
+  }
 }
 @media(max-width:601px){
 .meets__img{
@@ -48,6 +102,19 @@ height: 423px;
 .quetions {
     padding-left: 70px;
 }
+.subscribe-container h2 {
+    font-size: 26px;
+  }
+
+  .subscribe-container p {
+    font-size: 14px;
+  }
+
+  .subscribe-form input[type="email"],
+  .subscribe-form button {
+    padding: 14px 20px;
+    font-size: 15px;
+  }
 }
 @media(max-width:560px){
    .meets__toptitle{
@@ -56,6 +123,18 @@ height: 423px;
 .meets__title {
     margin-bottom: 10px;
 }
+.footer {
+    padding: 40px 20px 30px;
+    font-size: 13px;
+  }
+
+  .footer a {
+    font-size: 13px;
+  }
+
+  .footer-logo {
+    width: 80px;
+  }
 }
 @media(max-width:480px){
 .meets__img {
@@ -69,6 +148,19 @@ height: 423px;
     .meets__bottomwrapper{
         padding: 16px;
     }
+    .subscribe-container h2 {
+        font-size: 22px;
+      }
+    
+      .subscribe-container p {
+        font-size: 13px;
+      }
+    
+      .subscribe-form input[type="email"],
+      .subscribe-form button {
+        font-size: 14px;
+        padding: 12px 18px;
+      }
 }
 @media(max-width:360px){
   .bottom__img{
@@ -104,5 +196,18 @@ height: 423px;
     .friends__logo{
         width: 78px;
         height: 48px;
+    }
+    .subscribe-form input[type="email"],
+    .subscribe-form button {
+      font-size: 13px;
+      padding: 10px 16px;
+    }
+  
+    .subscribe-container h2 {
+      font-size: 20px;
+    }
+  
+    .footer a {
+      font-size: 12px;
     }
 }
