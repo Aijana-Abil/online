@@ -59,7 +59,7 @@
 }
 .meets__title{
     margin-left: 90px;
-    width: 458px;
+    max-width: 458px;
 }
 .meets__bottomwrapper{
     padding: 16px 44px;
@@ -121,6 +121,8 @@ height: 423px;
     margin-bottom: 20px;
    }
 .meets__title {
+      text-align: left;
+        margin-left: 40px;
     margin-bottom: 10px;
 }
 .footer {
@@ -137,9 +139,9 @@ height: 423px;
   }
 }
 @media(max-width:480px){
-.meets__img {
-        right: 124px;
-        bottom: 190px;
+    .meets__img {
+        right: 106px;
+        bottom: 120px;
     }
     .section__title{
         font-size: 36px;
@@ -161,6 +163,17 @@ height: 423px;
         font-size: 14px;
         padding: 12px 18px;
       }
+       .meets__video{
+    width: 280px;
+    height: 288px;
+    }
+    .meets__img{
+        width: 54px;
+        height: 54px;
+    }
+     .bottom__img{
+    max-width: 100%;
+  }
 }
 @media(max-width:360px){
   .bottom__img{
