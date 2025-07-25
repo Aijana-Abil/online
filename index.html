@@ -5,32 +5,55 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Signy</title>
   <link rel="stylesheet" href="./assets/styles/style.css" />
+  <script defer src="./assets/js/main.js"></script>
   <link rel="stylesheet" href="./assets/styles/media.css">
 </head>
 <body>
   <div class="hero-wrapper">
-    <header class="header">
-      <div class="container">
-        <div class="logo">
-          <img src="./assets/images/logo.svg" alt="Signy Logo" />
-          <span class="logo-text">Signy</span>
-        </div>
-        <nav class="nav">
+    <header class="header open">
+      <div class="container for-btn">
+        <div class="mobile-menu">
+          <div class="container-first">
+            <div class="logo">
+              <img src="./assets/images/logo.svg" alt="Signy Logo" />
+              <span class="logo-text">Signy</span>
+            </div>
+          </div>
+          <nav class="nav">
           <a href="#">0 800 750 643 ⌵</a>
           <a href="#">ПРО НАС ⌵</a>
           <a href="#">ЦЕНЫ</a>
           <a href="#">КОНТАКТЫ</a>
-        </nav>
-       <div class="header-actions">
-  <button class="btn-outline">ВХОД</button>
-  <button class="btn-primary">РЕГИСТРАЦИЯ</button>
-  <select class="lang-switcher">
-    <option value="ru">Рус</option>
-    <option value="en">Eng</option>
-  </select>
-</div>
-      </div>
+           </nav>
+          <div class="header-actions">
+           <button class="btn-outline">ВХОД</button>
+            <button class="btn-primary">РЕГИСТРАЦИЯ</button>
+          </div>
+          <ul class="header__list">
+            <li class="header__item">ПРО НАС</li>
+            <li class="header__item">блог</li>
+            <li class="header__item">Видео</li>
+            <li class="header__item">Вопросы</li>
+            <li class="header__item">ЦЕНЫ</li>
+            <li class="header__item">КОНТАКТЫ</li>
+          </ul>
+          <select class="lang-switcher">
+            <option value="ru">Рус</option>
+            <option value="en">Eng</option>
+          </select>
+          <div class="header__lang-switcher">
+            <a href="#">рус</a>
+            <a href="#">англ</a>
+          </div>
+        </div>
+            <button class="header__burger-btn active" id="burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>   
+          </div>
     </header>
+            <div id="overlay"></div>
     <section class="Task-1hero hero-section">
       <div class="container">
         <div class="hero-text">
