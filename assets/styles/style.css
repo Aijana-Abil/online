@@ -614,8 +614,10 @@ body {
 }
 .bottom__img {
   background: linear-gradient(320deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
-  mix-blend-mode: hard-light;
   border-radius: 4px;
+  mix-blend-mode: multiply;
+   opacity: 0.3;
+   
 }
 /*Friends*/
 /*meets*/
@@ -625,16 +627,17 @@ body {
   text-align: center;
   background: #fff;
 }
-.meets__title {
+.meets__toptitle{
   text-align: center;
 }
 .meets__video {
   display: inline-block;
   background: url("../images/meets__img.jpg") no-repeat center/cover;
-  max-width: 100%;
   border-radius: 4px;
   opacity: 0.4;
   position: relative;
+      width: 726px;
+    height: 446px;
 }
 .meets__img {
   height: 102px;
@@ -652,12 +655,15 @@ body {
   padding-top: 46px;
 }
 .meets__title {
-  font-family: var(--second-family);
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 120%;
+  margin-bottom: 46px;
   text-align: center;
-  color: rgba(6, 18, 36, 0.9);
+}
+.meets__bottomwrapper {
+  padding: 30px 396px;
+  background: #deeefc;
+}
+.quetions {
+  padding-left: 110px;
 }
 /*input*/
 .btn__text {
@@ -667,65 +673,7 @@ body {
   display: block;
   box-sizing: border-box;
   margin: 0 0 5px;
-  transition: color 0.3s;
-}
-.btn__close {
-  display: inline-block;
-  position: relative;
-  width: 11px;
-  height: 12px;
-  cursor: pointer;
-}
-.btn__close::before {
-  content: "";
-  position: absolute;
-  display: inline-block;
-  height: 2px;
-  width: 11px;
-  transition: 0.3s;
-  background: #1064e5;
-  left: -37px;
-  top: 40px;
-  transform: rotate(90deg);
-}
-.btn__close::after {
-  content: "";
-  position: absolute;
-  display: inline-block;
-  height: 2px;
-  width: 11px;
-  background: #1064e5;
-  left: -37px;
-  top: 40px;
-}
-.input:checked + .btn__close::before {
-  opacity: 0;
-}
-.meets__bottomwrapper {
-  padding: 30px 396px;
-  background: #deeefc;
-}
-.meets__title {
-  font-family: var(--second-family);
-  font-weight: 500;
-  font-size: 40px;
-  line-height: 120%;
-  text-align: center;
-  color: rgba(6, 18, 36, 0.9);
-  margin-bottom: 46px;
-}
-.quetions {
-  padding-left: 110px;
-}
-/*input*/
-.btn__text {
-  line-height: 122%;
-  max-width: 480px;
-  cursor: pointer;
-  display: block;
-  box-sizing: border-box;
-  margin: 0 0 5px;
-  transition: color 0.3s;
+  transition:0.3s;
 }
 .btn__close {
   display: inline-block;
@@ -1096,7 +1044,6 @@ body {
 .footer {
   background-color: #050f23;
   padding: 64px 40px 40px;
-  font-family: sans-serif;
   font-size: 14px;
   color: rgba(255, 255, 255, 0.4);
 }
